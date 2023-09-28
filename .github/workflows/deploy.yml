@@ -19,7 +19,7 @@ jobs:
 
       - name: Run build
         env:
-          BASE_PATH: "/svelte-yt"
+          BASE_PATH: "/svelte-youtube"
         run: bun run build
 
       - name: Upload Artifacts

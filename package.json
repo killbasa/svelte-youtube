@@ -1,14 +1,15 @@
 {
-	"name": "svelte-yt",
+	"name": "@killbasa/svelte-youtube",
 	"version": "0.0.1",
+	"description": "Zero dependency YouTube iframe API wrapper.",
 	"author": "killbasa <contact@shaneb.xyz>",
 	"license": "MIT",
 	"type": "module",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/killbasa/svelte-yt.git"
+		"url": "https://github.com/killbasa/svelte-youtube.git"
 	},
-	"homepage": "https://github.com/killbasa/svelte-yt",
+	"homepage": "https://github.com/killbasa/svelte-youtube",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && bun run package",

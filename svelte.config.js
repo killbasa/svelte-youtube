@@ -10,7 +10,7 @@ const config = {
 			pages: './build'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/svelte-yt' : ''
+			base: process.env.NODE_ENV === 'production' ? '/svelte-youtube' : ''
 		},
 		alias: {
 			$internal: resolve('./src/internal')
