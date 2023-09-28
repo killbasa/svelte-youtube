@@ -1,0 +1,54 @@
+:root {
+	--font-family: 'Inter';
+
+	--background: rgb(38, 41, 60);
+	--background-alt: #1a1a1d;
+	--color-text: rgba(255, 255, 245, 0.86);
+
+	--button-y-padding: 8px;
+	--button-x-padding: 16px;
+	--border-radius: 8px;
+	--shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+	--shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+	font-family: var(--font-family);
+}
+
+body {
+	background-color: var(--background);
+	color: var(--color-text);
+}
+
+h1 {
+	font-size: 20pt;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 16pt;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 14pt;
+	font-weight: 500;
+}
+
+button,
+[role='button'] {
+	padding-top: var(--button-y-padding);
+	padding-bottom: var(--button-y-padding);
+	padding-left: var(--button-x-padding);
+	padding-right: var(--button-x-padding);
+
+	border-radius: 0.5rem;
+
+	background-color: #deddda1a;
+	color: #deddda;
+	cursor: pointer;
+}
+
+button:hover,
+[role='button']:hover {
+	backdrop-filter: brightness(70%);
+}
