@@ -43,7 +43,7 @@
 </script>
 
 <svelte:head>
-	<title>Tag | Tagg</title>
+	<title>Svelte YouTube</title>
 </svelte:head>
 
 <section>
